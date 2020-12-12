@@ -12,5 +12,6 @@ public class SqArea {
         double result1 = SqArea.square(4, 1);
         double result2 = SqArea.square(18, 2);
         double result3 = SqArea.square(19, 6);
+        double result4 = SqArea.square(19, 6);
     }
 }

@@ -7,9 +7,9 @@ public class TrgArea {
         double secondExpr = semiPerimeter - b;
         double thirdExpr = semiPerimeter - c;
         double multiply = semiPerimeter * firstExpr * secondExpr * thirdExpr;
-
-        System.out.println("area (" + a + ", " + b + ", " + c + ") = " + Math.sqrt(multiply));
-        return semiPerimeter * firstExpr * secondExpr * thirdExpr;
+        double areaRes = Math.sqrt(multiply);
+        System.out.println("area (" + a + ", " + b + ", " + c + ") = " + areaRes);
+        return areaRes;
     }
 
     public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class TrgArea {
         double rsl2 = TrgArea.area(5, 6, 7);
         double rsl3 = TrgArea.area(5, 8, 4);
         double rsl4 = TrgArea.area(5, 3, 4);
+        double rsl5 = TrgArea.area(4, 4, 4);
 
     }
 }
