@@ -2,7 +2,9 @@ package ru.job4j;
 
 public class Test2 {
     public static void main(String[] args) {
-        int i = 54;
-        System.out.println(i * 3);
+        short s = 1500;
+        char c = (char) s;
+        double d = c;
+        System.out.println(d);
     }
 }
