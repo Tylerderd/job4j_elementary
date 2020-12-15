@@ -29,4 +29,10 @@ public class FitnessTest {
         int month = Fitness.calc(40, 100);
         assertThat(month, is(3));
     }
+
+    @Test
+    public void whenIvanequalsNik() {
+        int month = Fitness.calc(90, 90);
+        assertThat(month, is(1));
+    }
 }

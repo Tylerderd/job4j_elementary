@@ -26,4 +26,5 @@ public class FactorialTest {
         int expected = 1;
         assertThat(rsl, is(expected));
     }
+
 }
