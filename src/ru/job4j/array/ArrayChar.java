@@ -5,9 +5,8 @@ public class ArrayChar {
 
         boolean result = true;
         for (int i = 0; i < word.length && i < pref.length; i++) {
-          result = word[i] == pref[i];
-            if (!result) {
-                break;
+            if (word[i] != pref[i]) {
+                return false;
             }
         }
         return result;
