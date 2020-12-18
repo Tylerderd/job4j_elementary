@@ -38,4 +38,15 @@ public class MinDiapasonTest {
                 is(2)
         );
     }
+
+    @Test
+    public void whenMiddleMin2() {
+        assertThat(
+                MinDiapason.findMin(
+                        new int[] {3, 4, 1, 2, 5},
+                        0, 4
+                ),
+                is(1)
+        );
+    }
 }
