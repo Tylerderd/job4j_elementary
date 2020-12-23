@@ -6,8 +6,18 @@ public class Merge {
         int size = 0;
         int i = 0;
         int j = 0;
-        while (i < left.length && j < right.length) {
-            if (left[i] < right[j]) {
+        for (int k = 0; k < rsl.length; k++) {
+            if (i < left.length && j < right.length) {
+                if (left[i] < right[j]) {
+                    rsl[size] = left[i];
+                    i++;
+                    size++;
+                } else {
+                    rsl[size] = right[j];
+                    j++;
+                    size++;
+                }
+            } else if (i < left.length) {
                 rsl[size] = left[i];
                 i++;
                 size++;
@@ -16,16 +26,6 @@ public class Merge {
                 j++;
                 size++;
             }
-        }
-        while (i < left.length) {
-            rsl[size] = left[i];
-            i++;
-            size++;
-        }
-        while (j < right.length) {
-            rsl[size] = right[j];
-            j++;
-            size++;
         }
         return rsl;
     }
