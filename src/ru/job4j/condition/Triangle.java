@@ -8,6 +8,5 @@ public class Triangle {
     public static void main(String[] args) {
         System.out.println(exist(3.7, 4.6, 6.1));
         System.out.println(exist(3.7, 19.6, 6.1));
-
     }
 }

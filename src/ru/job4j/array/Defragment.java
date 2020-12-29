@@ -8,7 +8,6 @@ public class Defragment {
         String temp = array[source];
         array[source] = array[dest];
         array[dest] = temp;
-
         return array;
     }
 
@@ -34,7 +33,5 @@ public class Defragment {
         for (int index = 0; index < compressed.length; index++) {
             System.out.print(compressed[index] + " ");
         }
-//        String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
-//        System.out.println(Arrays.toString(swap(input, 1, 2)));
     }
 }

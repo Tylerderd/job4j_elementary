@@ -14,7 +14,6 @@ public class Point {
         double result = Point.distance(0, 0, 2, 0);
         double result2 = Point.distance(3, 4, 0, 0);
         double result3 = Point.distance(-5, -6, 6, 4);
-
         System.out.println("result (0, 0) to (2, 0) is " + result);
         System.out.println("result (3, 4) to (0, 0) is " + result2);
         System.out.println("result (-5, -6) to (6, 4) is " + result3);

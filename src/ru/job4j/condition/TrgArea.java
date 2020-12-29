@@ -18,6 +18,5 @@ public class TrgArea {
         double rsl3 = TrgArea.area(5, 8, 4);
         double rsl4 = TrgArea.area(5, 3, 4);
         double rsl5 = TrgArea.area(4, 4, 4);
-
     }
 }

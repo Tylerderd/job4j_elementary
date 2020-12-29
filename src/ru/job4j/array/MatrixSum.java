@@ -1,10 +1,5 @@
 package ru.job4j.array;
 
-//int[][] in = {
-//        {1, 2, 1},
-//        {1, 2, 0}
-//        };
-
 public class MatrixSum {
     public static int sum(int[][] array) {
         int rsl = 0;
